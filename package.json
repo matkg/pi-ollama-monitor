@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "Pi extension: Ollama Cloud quota in your footer — progress bar, used %, dollar allowance, reset time, and burn rates (%/h and %/min).",
 	"type": "module",
-	"license": "PolyForm-Noncommercial-1.0.0",
+	"license": "MIT",
 	"author": "mattKg",
 	"repository": {
 		"type": "git",
