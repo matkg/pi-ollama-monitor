@@ -7,7 +7,7 @@
 	"author": "mattKg",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mattKg/pi-ollama-monitor.git"
+		"url": "git+https://github.com/matkg/pi-ollama-monitor.git"
 	},
 	"keywords": [
 		"pi-package",

@@ -37,7 +37,7 @@ pi install npm:pi-ollama-monitor
 or from git:
 
 ```bash
-pi install git:github.com/mattKg/pi-ollama-monitor
+pi install git:github.com/matkg/pi-ollama-monitor
 ```
 
 Requires Pi with a version that exports `FooterComponent` (pi ≥ 1.4). On older
