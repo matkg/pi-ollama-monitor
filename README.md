@@ -4,6 +4,13 @@ Ollama Cloud **quota** monitor for the [Pi](https://pi.dev) coding agent: a
 progress bar, used percentage, remaining dollar allowance, the exact quota
 reset time, and burn rates — right-aligned on the footer's path line.
 
+> [!WARNING]
+> **AI-generated, not human reviewed.** The entire codebase was written by an
+> AI coding agent and has not been reviewed, audited or tested by a human
+> author before publication. It runs inside your Pi process with your
+> permissions, reads your Ollama credentials and makes network requests.
+> Read the source before installing and use it at your own risk.
+
 ```
 ~/cleanframe-bravia (main)     🦙 monitor ████░░░░░░ 41% resets 8. Nov. 19:59 · 2.7%/h · 0.05%/min
 12.5%/200k (auto)                              (ollama-cloud) deepseek-v4.1-flash • high
@@ -121,6 +128,14 @@ node --test test/api.test.ts test/options.test.ts test/render.test.ts
 
 The API/quota math, option handling and every render surface are covered by
 `node:test`; no build step is required (Pi loads the TypeScript directly).
+
+## AI-generated code
+
+This project was generated end-to-end by an AI coding agent. No human author
+reviewed, audited or manually tested the code. It is provided for
+convenience and study, "as is", with no guarantee of correctness, security or
+fitness for any purpose. If you need reviewed software, audit it yourself or
+commission a review before relying on it.
 
 ## License
 
