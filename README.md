@@ -124,4 +124,12 @@ The API/quota math, option handling and every render surface are covered by
 
 ## License
 
-MIT
+[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0)
+— source-available, not open source in the OSI sense:
+
+- ✅ use, modify and redistribute for **noncommercial purposes**
+- ❌ **commercial use** (including use by a for-profit company in its business)
+- ✅ provided **as is**, without warranty; the licensor is **not liable** for damages
+- redistributions must include the license terms and the `Required Notice:` line
+
+For commercial licensing, contact the author.
