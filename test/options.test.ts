@@ -17,7 +17,7 @@ import {
 } from "../options.ts";
 
 function setup() {
-	const root = mkdtempSync(join(tmpdir(), "pi-ollama-quota-"));
+	const root = mkdtempSync(join(tmpdir(), "ollama-usage-monitor-"));
 	const agentDir = join(root, "agent");
 	const cwd = join(root, "project");
 	mkdirSync(agentDir, { recursive: true });

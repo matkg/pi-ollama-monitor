@@ -1,5 +1,5 @@
 {
-	"name": "pi-ollama-quota",
+	"name": "ollama-usage-monitor",
 	"version": "0.1.0",
 	"description": "Pi extension: Ollama Cloud quota in your footer — progress bar, used %, dollar allowance, reset time, and burn rates (%/h and %/min).",
 	"type": "module",
@@ -7,7 +7,7 @@
 	"author": "mattKg",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mattKg/pi-ollama-quota.git"
+		"url": "git+https://github.com/mattKg/ollama-usage-monitor.git"
 	},
 	"keywords": [
 		"pi-package",
@@ -17,6 +17,7 @@
 		"ollama-cloud",
 		"usage",
 		"quota",
+		"monitor",
 		"footer",
 		"tui"
 	],
