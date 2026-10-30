@@ -59,7 +59,7 @@ test("composeParts honours dollars, updated and both rates", () => {
 	const parts = composeParts(snapshot(recentBuckets()), options({ dollars: true, updated: true }));
 	assert.ok(parts);
 	assert.equal(parts.dollars, "$36/$60");
-	assert.match(parts.updated ?? "", /^\d{1,2}:\d{2}$/);
+	assert.match(parts.updated ?? "", /^\d{2}:\d{2}$/);
 	assert.equal(parts.rates.length, 2);
 	assert.match(parts.rates[0], /%\/h$/);
 	assert.match(parts.rates[1], /%\/min$/);
@@ -123,6 +123,6 @@ test("reportLines includes allowance, reset countdown and both rate averages", (
 	assert.match(lines, /renews /);
 	assert.match(lines, /rate\s+.*%\/h \(3h avg\)/);
 	assert.match(lines, /%\/min \(60m avg\)/);
-	assert.match(lines, /updated \d{1,2}:\d{2}/);
+	assert.match(lines, /updated \d{2}:\d{2}/);
 	assert.match(lines, /3 requests/);
 });

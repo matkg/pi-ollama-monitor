@@ -32,8 +32,10 @@ export function fmtTokens(value: number): string {
 	return `${(value / 1_000_000).toFixed(1)}M`;
 }
 
+/** Local 24-hour wall clock, e.g. "20:59" (locale-independent, fixed width). */
 export function fmtClock(ms: number): string {
-	return new Date(ms).toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
+	const date = new Date(ms);
+	return `${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
 }
 
 /** Compact age of a fetch, e.g. "12s", "3m", "2h 5m". */
