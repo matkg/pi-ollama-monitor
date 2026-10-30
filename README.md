@@ -1,4 +1,4 @@
-# ollama-usage-monitor
+# pi-ollama-monitor
 
 Ollama Cloud **quota** monitor for the [Pi](https://pi.dev) coding agent: a
 progress bar, used percentage, remaining dollar allowance, the exact quota
@@ -24,13 +24,13 @@ reset time, and burn rates — right-aligned on the footer's path line.
 ## Install
 
 ```bash
-pi install npm:ollama-usage-monitor
+pi install npm:pi-ollama-monitor
 ```
 
 or from git:
 
 ```bash
-pi install git:github.com/mattKg/ollama-usage-monitor
+pi install git:github.com/mattKg/pi-ollama-monitor
 ```
 
 Requires Pi with a version that exports `FooterComponent` (pi ≥ 1.4). On older
